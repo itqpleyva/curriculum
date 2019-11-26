@@ -84,3 +84,17 @@ body{
         margin-left: 1rem;
     }
 }
+@media (max-width: 500px) {
+    .name{
+        font-size: 0.9rem;
+        line-height: 20px;
+    }
+    .sum{
+        margin-right: 0px;
+    }
+    .tech{
+        margin-left: 0.9rem;
+        line-height: 20px;
+
+    }
+}
