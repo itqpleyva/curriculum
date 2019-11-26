@@ -1,0 +1,74 @@
+.nav_style{
+    height: 200px;
+}
+.name{
+    font-size: 1.5rem;
+    line-height:25px;
+}
+.summ{
+    line-height:25px;
+}
+.contact{
+    font-size: 1.2rem;
+
+}
+.img_profile{
+    margin-top: 40px;
+}
+.personalized_width{
+    width: 65%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin:auto;
+    padding: 1rem;
+}
+body{
+    background-color: rgb(82, 82, 82);
+}
+.skill_header{
+    font-weight: 600;
+    transition: all 1s ease-in-out;
+}
+.inner_text{
+    font-size: 1.5rem;
+}
+.card_skill{
+    background: rgb(252, 221, 221);
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.content{
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+}
+.sub{
+    font-weight: 600;
+}
+.description{
+    line-height:25px;
+}
+.university{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.position{
+    text-decoration: underline;
+}
+.separator{
+    background-color: black;
+    height: 3px;
+}
+/* efectos */
+.skill_header:hover{
+    color:red;
+}
+.country{
+    color: #1976d3;
+    font-size: 20px;
+}
+/* media queries */
+@media (max-width: 1200px) {
+    .personalized_width{
+        width: 100%;
+    }
+  }
