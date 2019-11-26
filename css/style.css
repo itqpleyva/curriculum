@@ -71,4 +71,16 @@ body{
     .personalized_width{
         width: 100%;
     }
-  }
+  
+  } 
+@media (max-width: 900px) {
+    .name{
+        font-size: 1rem;
+    }
+    .sum{
+        margin-right: 0px;
+    }
+    .tech{
+        margin-left: 1rem;
+    }
+}
